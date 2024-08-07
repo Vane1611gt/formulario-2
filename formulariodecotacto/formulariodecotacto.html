@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de cotacto</title>
+    <link rel="stylesheet" href="../../config/config.css">
+    <link rel="stylesheet" href="formulariodecotacto.css">
+    
+</head>
+<body>
+</head>
+<body>
+    <form>
+        <p class="obligatorio">Todos los campos son obligatorios:</p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="mensaje">Su mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        <br>
+        <input type="reset" value="Borrar datos">
+        <input type="submit" value="Enviar datos">
+    </form>
+</body>
+</html>
